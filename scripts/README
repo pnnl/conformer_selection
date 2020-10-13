@@ -1,0 +1,13 @@
+# Original names to new names
+Original   New
+nDisConf-v2-array-logsum.py	similarity-down-selection.py
+MC-ccs-threshold-dataframes.py	MC-ccs-energy-threshold.py
+MC-converg-criterion_refact2.py	MC-convergence-point.py
+ave-rmsd-MC_refact.py 		MC-rmsd.py
+combo-methods-sansDGO-v2.py 	combo-methods-sansDGO.py
+combo-methods-withDGO-v2.py 	combo-methods-withDGO.py
+energy-v-ccs-WE36982.py		energy-ccs-dataframe.py
+SA-rmsd.py 			condense-rmsd-for-MC.py
+
+# Other
+Not sure if I ever validated MC-ccs-withincycle-v2.py, so I also included MC-ccs-withincycle-v1.py

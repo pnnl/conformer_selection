@@ -1,0 +1,3 @@
+redoing the benchmark/baseline for the combo-methods using 30 conformers pulled from the 50k
+Isicle seems to have changed since the 50k were ran, tautomers and/or something else is different for these molecules.
+The conformers for the secon redo are the most similar and the two most dissimilar from the first ten cycles (ISiCLE style)

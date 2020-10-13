@@ -1,0 +1,20 @@
+molid17_30dgo_ccs.csv and
+molid17_30dgo_dft_energy_map.csv
+are inbetween steps.
+molid17_ccs_30dgo.csv
+brings them together.
+
+first run tab-to-comma.py (sounds like an unnecessary step to me now, but it's the way I did it, so we'll keep doing it this way.)
+on the <INCHIKEY>.tsv files
+Then run combine-csv.py
+on the resulting *_30dgo_ccs.csv, and the *_dft_energy_map.csv
+
+*_dft_energy_map.csv is gotten from 
+parse_dft_first_energy.py
+which is run in the output directory where DFT geom opt was run on the molecules (on the Constance)
+
+NOTE:
+for PGP (molid29), one or more of its nwchem output files is incomplete (but deemed still usable) so it did not parse the "first dft energy"
+correctly. Therefore, I fibbed the molid17_ccs_30dgo.csv by simply copying molid17_30dgo_ccs.csv for a specific application.
+
+This whole directory is a mess. I hate it

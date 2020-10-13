@@ -1,0 +1,2 @@
+These had conformer_ccs .tsv files for the original isicle benchmark run I got from Sean, but for some reason their dft files had vanished.
+Therefore I redid them. These are the original .tsv that I can't use because I don't have their dft energies from the missing files.
